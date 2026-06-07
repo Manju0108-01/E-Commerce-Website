@@ -1,0 +1,56 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url("../images/herobanner1.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+.card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+footer i{
+    cursor:pointer;
+    transition:0.3s;
+}
+
+footer i:hover{
+    transform:scale(1.2);
+}
